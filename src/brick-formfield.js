@@ -25,10 +25,6 @@
 
   BrickFormfieldElementPrototype.attachedCallback = function () {
 
-
-
-    var formField = this;
-
     // import template
     var importDoc = currentScript.ownerDocument;
     var templateContent = importDoc.querySelector('template').content;
@@ -39,7 +35,6 @@
     // create shadowRoot and append template
     var shadowRoot = this.createShadowRoot();
     shadowRoot.appendChild(templateContent.cloneNode(true));
-
 
   };
 
