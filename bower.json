@@ -1,0 +1,26 @@
+{
+  "name": "brick-formfield",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mozbrick/brick-formfield",
+  "authors": [
+    "mozilla"
+  ],
+  "description": "A Brick Form Field",
+  "main": "dist/brick-formfield.html",
+  "keywords": [
+    "brick",
+    "webcomponents"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "brick-common": "*",
+    "platform": "Polymer/platform"
+  }
+}

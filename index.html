@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <title>brick-formfield</title>
+
+    <!-- Importing Polyfill -->
+    <script src="bower_components/platform/platform.js"></script>
+
+    <link rel="import" href="bower_components/brick-input/dist/brick-input.html"></link>
+
+    <!-- Importing Custom Elemenent -->
+    <link rel="import" href="dist/brick-formfield.local.html">
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Best Case -->
+    <brick-formfield>
+      <label for="1">E-Mail</label>
+      <brick-input id="1"></brick-input>
+    </brick-formfield>
+
+  </body>
+</html>

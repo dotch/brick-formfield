@@ -1,0 +1,32 @@
+<template>
+  <style>:host {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+:host ::content label {
+  align-self: center;
+}
+:host ::content label+* {
+  min-width: auto;
+  min-height: auto;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  box-flex: 1;
+  flex: 1;
+}
+</style>
+  <style>:host ::content label {
+  margin-right: 14px;
+}
+</style>
+  <content></content>
+</template>
+
+
+
+<script src="brick-formfield.js"></script>
